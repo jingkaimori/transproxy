@@ -1,0 +1,11 @@
+*.wb.example.org.	600	IN	A	101.200.206.223
+*.wd.example.org.	600	IN	A	101.200.206.223
+wm.example.org.	600	IN	A	101.200.206.223
+*.wm.example.org.	600	IN	A	101.200.206.223
+*.wn.example.org.	600	IN	A	101.200.206.223
+*.wp.example.org.	600	IN	A	101.200.206.223
+*.wq.example.org.	600	IN	A	101.200.206.223
+*.ws.example.org.	600	IN	A	101.200.206.223
+*.wt.example.org.	600	IN	A	101.200.206.223
+*.wver.example.org.	600	IN	A	101.200.206.223
+*.wvoy.example.org.	600	IN	A	101.200.206.223 
