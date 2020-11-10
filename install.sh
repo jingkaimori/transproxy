@@ -88,7 +88,7 @@ ${authmethod} \
 
 #全局变量`HOME`为执行脚本的用户的主目录
 
-cd ${nginxdir}/ca/wikimedia;
+cd ${nginxdir}/ca/wikipedia;
 updatelink $HOME/.acme.sh/wm.${website}/wm.${website}.key $PWD/rsa.key;
 updatelink $HOME/.acme.sh/wm.${website}/wm.${website}.cer $PWD/cert.crt;
 
@@ -97,6 +97,8 @@ if [ ! -d ${nginxdir}/sites-enabled ]; then
   mkdir -p ${nginxdir}/sites-enabled;
 fi
 updatelink ${nginxdir}/sites-available/wikipedia.conf ${nginxdir}/sites-enabled/wikipedia.conf
+
+#填写服务器域名
 
 #载入配置，启动镜像站
 sudo systemctl stop nginx.service;
