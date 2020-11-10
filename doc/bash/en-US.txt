@@ -1,0 +1,15 @@
+install.sh: install.sh [Options]
+  nginx trans-proxy config installer
+
+  Options:
+  -a ACMEOPTION   config the auth option of acme.sh .more info can be found in:
+                  <https://github.com/acmesh-official/acme.sh/wiki>
+  -h              show this help message
+     -ha          show help message of acme.sh
+  -l              the language of the output file
+  -n PATH         location of nginx's configure file
+  -w WEBSITE      the domain of your website
+
+  Default argument:
+  install.sh -a "--dns dns_ali"
+  

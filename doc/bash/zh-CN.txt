@@ -1,0 +1,14 @@
+install.sh: install.sh [Options]
+  nginx反代服务器配置脚本
+
+  选项:
+  -a ACMEOPTION   acme 配置选项，请在此处加入适合你的镜像站的认证方式，详细配置
+                  信息：<https://github.com/acmesh-official/acme.sh/wiki>
+  -h              显示此帮助信息 
+     -ha          输出 acme.sh 的帮助信息
+  -l              指定输出文本的语言
+  -n PATH         nginx 配置文件的位置
+  -w WEBSITE      反代站的域名
+                                                                               
+  默认参数:
+  install.sh -a "--dns dns_ali"
