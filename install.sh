@@ -59,7 +59,9 @@ fi
 
 #签发证书
 #`acme.sh`和本脚本安装于同一目录下，取消acmedir参数，不需要尾随斜杠。
-./acme.sh/acme.sh --issue --force \
+cd ./acme.sh;
+./acme.sh --install;
+./acme.sh --issue --force \
 ${authmethod} \
  -d wm.${website}\
  -d *.wp.${website}\
